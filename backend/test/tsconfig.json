@@ -1,0 +1,23 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "allowJs": false,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "isolatedModules": false,
+    "strict": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "include": [
+    "./*.ts",
+    "./**/*.ts",
+    "../node_modules/api-utils/**/*.ts",
+    "../node_modules/time-utils/**/*.ts",
+    "../node_modules/test-utils/**/*.ts",
+    "../node_modules/dynamo-utils/**/*.ts"
+  ]
+}
